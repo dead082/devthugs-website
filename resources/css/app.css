@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-orbitron: 'Orbitron', ui-sans-serif, system-ui, sans-serif;
+    --font-inter: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+    --color-neon-cyan: #00f0ff;
+    --color-neon-purple: #a855f7;
+    --color-neon-blue: #3b82f6;
+    --color-dark-base: #0a0a0f;
+    --color-dark-secondary: #0d0d1a;
+
+    --animate-pulse-glow: pulse-glow 2s ease-in-out infinite;
+    --animate-float: float 6s ease-in-out infinite;
+    --animate-bounce-slow: bounce-slow 3s ease-in-out infinite;
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: var(--color-dark-base);
+        color: #ffffff;
+        font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+        overflow-x: hidden;
+    }
+}
+
+@keyframes grid-move {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(40px);
+    }
+}
+
+@keyframes marquee-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes marquee-right {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse-glow {
+    0%,
+    100% {
+        opacity: 1;
+        box-shadow: 0 0 20px rgba(0, 240, 255, 0.5);
+    }
+    50% {
+        opacity: 0.8;
+        box-shadow: 0 0 40px rgba(0, 240, 255, 0.8);
+    }
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes float-particle {
+    0%,
+    100% {
+        transform: translate(0, 0);
+        opacity: 0.15;
+    }
+    50% {
+        transform: translate(10px, -40px);
+        opacity: 0.45;
+    }
+}
+
+@keyframes bounce-slow {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes hero-drift-a {
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(30px, -40px);
+    }
+}
+
+@keyframes hero-drift-b {
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-40px, 30px);
+    }
+}
+
+@layer utilities {
+    .font-orbitron {
+        font-family: var(--font-orbitron), ui-sans-serif, system-ui, sans-serif;
+    }
+
+    .font-inter {
+        font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+    }
+
+    .animated-grid {
+        background-image:
+            linear-gradient(rgba(0, 240, 255, 0.1) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(0, 240, 255, 0.1) 1px, transparent 1px);
+        background-size: 40px 40px;
+        animation: grid-move 2s linear infinite;
+    }
+
+    .animate-marquee-left {
+        animation: marquee-left 30s linear infinite;
+    }
+
+    .animate-marquee-right {
+        animation: marquee-right 30s linear infinite;
+    }
+
+    .marquee-row:hover .animate-marquee-left,
+    .marquee-row:hover .animate-marquee-right {
+        animation-play-state: paused;
+    }
+
+    .perspective-1000 {
+        perspective: 1000px;
+    }
+
+    .glow-cyan {
+        box-shadow: 0 0 20px rgba(0, 240, 255, 0.5);
+    }
+
+    .glow-purple {
+        box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+    }
+
+    .glow-blue {
+        box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+    }
+
+    .hero-orb-a {
+        animation: hero-drift-a 15s ease-in-out infinite;
+    }
+
+    .hero-orb-b {
+        animation: hero-drift-b 18s ease-in-out infinite 2s;
+    }
+
+    .animate-bounce-slow {
+        animation: bounce-slow 3s ease-in-out infinite;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0d0d1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #00f0ff, #a855f7);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #00f0ff, #3b82f6);
+}

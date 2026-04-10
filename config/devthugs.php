@@ -1,0 +1,206 @@
+<?php
+
+return [
+    'featured_projects' => [
+        [
+            'title' => 'RobotX Studio',
+            'tag' => 'Robotics / IoT',
+            'hex_color' => '#00f0ff',
+            'description' => 'One-stop maker platform for robotics, IoT, and automation that helps users design, build, and bring intelligent machines to life.',
+            'image' => 'RobotX_Studio_platform_on_sleek_devices.png',
+        ],
+        [
+            'title' => 'AquaSure',
+            'tag' => 'Smart Fisheries',
+            'hex_color' => '#2dd4bf',
+            'description' => 'Smart fishing platform that empowers fisheries through real-time monitoring, marine insights, and data-driven decision support.',
+            'image' => 'Smart_fishing_with_AquaSure_platform.png',
+        ],
+        [
+            'title' => 'FireGuard',
+            'tag' => 'Safety Tech',
+            'hex_color' => '#ef4444',
+            'description' => 'Next-generation fire prevention platform with real-time detection, rapid alerts, and intelligent monitoring for safer communities.',
+            'image' => 'FireGuards_next-gen_fire_prevention_demo.png',
+        ],
+        [
+            'title' => 'NearBuy',
+            'tag' => 'Location Intelligence',
+            'hex_color' => '#34d399',
+            'description' => 'Interactive business location intelligence platform that helps users discover strategic zones using maps, satellite data, and spatial insights.',
+            'image' => 'Exploring_business_zones_with_NearBuy.png',
+        ],
+        [
+            'title' => 'AgriSenso',
+            'tag' => 'Smart Agriculture',
+            'hex_color' => '#22c55e',
+            'description' => 'Smart farming platform powered by AI-driven monitoring, environmental insights, and data-supported farm management.',
+            'image' => 'The_future_of_smart_farming.png',
+        ],
+    ],
+
+    'partners' => [
+        ['name' => 'DOST', 'full_name' => 'Department of Science and Technology', 'logo' => 'pasted-image.png'],
+        ['name' => 'DICT', 'full_name' => 'Department of Information and Communications Technology', 'logo' => 'DICT-Logo-icon_only.png'],
+        ['name' => 'DTI', 'full_name' => 'Department of Trade and Industry', 'logo' => 'DTI-Logo.jpg'],
+        ['name' => 'NEMSU TBI', 'full_name' => 'North Eastern Mindanao State University Technology Business Incubator', 'logo' => 'pasted-image-1.png'],
+    ],
+
+    'showcase_images' => [
+        'WeAreDevthugs_1.jpg',
+        'WeAreDevthugs_2.jpg',
+        'WeAreDevthugs_3.jpg',
+        'WeAreDevthugs_4.jpg',
+        'WeAreDevthugs_5.jpg',
+    ],
+
+    'milestones' => [
+        [
+            'date' => 'October 2025',
+            'title' => 'The Founding',
+            'description' => 'The company was founded in an old boarding house — a small group of passionate developers united by a shared vision to build technology that matters.',
+            'color_class' => 'text-neon-cyan',
+            'icon_color' => 'text-neon-cyan',
+            'icon' => 'home',
+            'image' => 'TheFounding.jpg',
+        ],
+        [
+            'date' => 'Late 2025',
+            'title' => 'First Competition',
+            'description' => 'Participated in a university-wide competition, putting our skills to the test and proving that Devthugs had what it takes to compete.',
+            'color_class' => 'text-neon-purple',
+            'icon_color' => 'text-neon-purple',
+            'icon' => 'trophy',
+            'image' => 'FirstCompetition.jpg',
+        ],
+        [
+            'date' => 'January 13, 2026',
+            'title' => 'Official Registration',
+            'description' => 'Officially registered the company with the Department of Trade and Industry (DTI), marking our transition from a passion project to a legitimate business.',
+            'color_class' => 'text-neon-blue',
+            'icon_color' => 'text-neon-blue',
+            'icon' => 'file-check',
+            'image' => 'OfficialRegistration.jpg',
+        ],
+        [
+            'date' => 'March 2026',
+            'title' => 'Regional Stage',
+            'description' => 'Participated in a regional competition, expanding our reach and establishing Devthugs as a rising force in the tech ecosystem.',
+            'color_class' => 'text-neon-cyan',
+            'icon_color' => 'text-neon-cyan',
+            'icon' => 'map-pin',
+            'image' => 'RegionalStage.jpg',
+        ],
+    ],
+
+    'why_features' => [
+        [
+            'title' => 'Innovation First',
+            'description' => "We don't just follow trends; we set them. Our solutions are built using the latest tech stacks to ensure future-proof performance.",
+            'color' => 'text-neon-cyan',
+            'border' => 'border-neon-cyan',
+            'image' => 'whyDevthugs_1.jpg',
+            'icon' => 'zap',
+        ],
+        [
+            'title' => 'Agile & Adaptive',
+            'description' => 'Speed meets precision. Our agile methodologies allow us to pivot quickly and deliver high-quality results in record time.',
+            'color' => 'text-neon-purple',
+            'border' => 'border-neon-purple',
+            'image' => 'whyDevthugs_2.jpg',
+            'icon' => 'rocket',
+        ],
+        [
+            'title' => 'Full-Stack Expertise',
+            'description' => 'From rock-solid backend architectures to stunning frontend interfaces, we handle the entire digital lifecycle.',
+            'color' => 'text-neon-blue',
+            'border' => 'border-neon-blue',
+            'image' => 'whyDevthugs_3.jpg',
+            'icon' => 'shield',
+        ],
+        [
+            'title' => 'Community Driven',
+            'description' => 'We believe in building technology that empowers people. Our community-centric approach ensures our products make a real impact.',
+            'color' => 'text-pink-500',
+            'border' => 'border-pink-500',
+            'image' => 'whyDevthugs_4.jpg',
+            'icon' => 'users',
+        ],
+    ],
+
+    'startup_projects' => [
+        [
+            'title' => 'RobotX Studio',
+            'description' => 'One-stop maker platform for robotics, IoT, and automation that helps users design, build, and bring intelligent machines to life.',
+            'gradient' => 'from-neon-cyan to-neon-blue',
+            'logo' => 'RobotxStudioLogo.png',
+            'tag' => 'Robotics / IoT',
+            'url' => 'https://www.robotxstudio.space/',
+            'video' => 'RobotX Studio.mp4',
+            'tall_logo' => true,
+        ],
+        [
+            'title' => 'AquaSure',
+            'description' => 'Smart fishing platform that empowers fisheries through real-time monitoring, marine insights, and data-driven decision support.',
+            'gradient' => 'from-neon-blue to-indigo-500',
+            'logo' => 'AquSureLogo.png',
+            'tag' => 'Smart Fisheries',
+            'url' => 'https://aquasure.vercel.app/',
+            'video' => 'AquaSure.mp4',
+            'tall_logo' => false,
+        ],
+        [
+            'title' => 'FireGuard',
+            'description' => 'Next-generation fire prevention platform with real-time detection, rapid alerts, and intelligent monitoring for safer communities.',
+            'gradient' => 'from-orange-400 to-red-500',
+            'logo' => 'FireGuard3Logo.png',
+            'tag' => 'Safety Tech',
+            'url' => 'https://fireguard-3.vercel.app/',
+            'video' => 'FireGuard.mp4',
+            'tall_logo' => false,
+        ],
+        [
+            'title' => 'NearBuy',
+            'description' => 'Interactive business location intelligence platform that helps users discover strategic zones using maps, satellite data, and spatial insights.',
+            'gradient' => 'from-neon-purple to-pink-500',
+            'logo' => 'NearBuyLogo.png',
+            'tag' => 'Location Intelligence',
+            'url' => 'https://nearbuy3.vercel.app/',
+            'video' => 'NearBuy.mp4',
+            'tall_logo' => false,
+        ],
+        [
+            'title' => 'AgriSenso',
+            'description' => 'Smart farming platform powered by AI-driven monitoring, environmental insights, and data-supported farm management.',
+            'gradient' => 'from-green-400 to-emerald-600',
+            'logo' => 'AgriSensoLogo.png',
+            'tag' => 'Smart Agriculture',
+            'url' => 'https://agrisenso.vercel.app/',
+            'video' => 'AgriSenso.mp4',
+            'tall_logo' => false,
+        ],
+    ],
+
+    'services' => [
+        ['title' => 'Web Development', 'description' => 'Custom, responsive, and high-performance web applications built with modern frameworks to scale your business.', 'accent' => 'cyan', 'icon' => 'code'],
+        ['title' => 'App / Mobile Dev', 'description' => 'Native and cross-platform mobile experiences designed for seamless user engagement on iOS and Android.', 'accent' => 'purple', 'icon' => 'smartphone'],
+        ['title' => 'Game Development', 'description' => 'Immersive gaming experiences with stunning graphics, engaging mechanics, and optimized performance.', 'accent' => 'pink', 'icon' => 'gamepad'],
+        ['title' => 'Video Editing / Graphic Design', 'description' => 'Compelling visual storytelling through professional video production, motion graphics, and brand identity design.', 'accent' => 'orange', 'icon' => 'video'],
+        ['title' => '3D Modeling / IOT', 'description' => 'Bridging the physical and digital worlds with precise 3D assets and intelligent connected device ecosystems.', 'accent' => 'blue', 'icon' => 'box'],
+        ['title' => 'Backend & Cloud', 'description' => 'Robust server architectures, API development, and cloud infrastructure management for ultimate reliability.', 'accent' => 'emerald', 'icon' => 'server'],
+    ],
+
+    'meeting_images' => [
+        ['url' => 'StrategicPlanningSession.jpg', 'alt' => 'Strategic Planning Session'],
+        ['url' => 'TeamCollaboration.jpg', 'alt' => 'Team Collaboration'],
+        ['url' => 'ClientPresentation.jpg', 'alt' => 'Client Presentation'],
+    ],
+
+    'testing_images' => [
+        ['url' => 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80', 'alt' => 'Mobile App Testing'],
+        ['url' => 'https://images.unsplash.com/photo-1526498460520-4c246339dccb?w=800&q=80', 'alt' => 'UX Research'],
+        ['url' => 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&q=80', 'alt' => 'Device Compatibility Check'],
+    ],
+
+    'team' => require __DIR__.'/team.php',
+];
