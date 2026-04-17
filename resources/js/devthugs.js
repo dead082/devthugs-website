@@ -455,7 +455,9 @@ function initTeamSection() {
         const m = team[index];
         if (!m || !modal || !modalBody) return;
         const seed = String(m.name).replace(/\s+/g, '');
-        const avatar = `https://api.dicebear.com/7.x/avataaars/svg?seed=${encodeURIComponent(seed)}`;
+        const avatar =
+            m.photo_url ||
+            `https://api.dicebear.com/7.x/avataaars/svg?seed=${encodeURIComponent(seed)}`;
 
         const skills = (m.skills || []).map((s) => `<span class="px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-white/80 text-sm font-inter">${escapeHtml(s)}</span>`).join('');
 

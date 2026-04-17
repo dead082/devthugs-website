@@ -16,7 +16,7 @@
         <div class="flex items-center justify-between h-20">
             <div class="flex items-center space-x-3">
                 <a href="{{ route('home') }}" class="flex items-center">
-                    <img src="{{ asset('DevThugs_Logo.png') }}" alt="Devthugz Logo" class="h-12 w-auto">
+                    <img src="{{ asset('images/partners_logo/DevThugs_Logo.png') }}" alt="Devthugz Logo" class="h-12 w-auto">
                 </a>
             </div>
 

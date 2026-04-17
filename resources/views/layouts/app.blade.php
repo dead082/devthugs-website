@@ -7,7 +7,7 @@
 
     <title>@yield('title', config('app.name'))</title>
 
-    <link rel="icon" type="image/png" href="{{ asset('DevThugs_Logo.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('images/partners_logo/DevThugs_Logo.png') }}">
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
