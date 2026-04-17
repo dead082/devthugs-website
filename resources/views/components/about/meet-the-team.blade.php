@@ -14,8 +14,9 @@
                 <div class="flex gap-6 transition-transform duration-500 ease-out will-change-transform" data-team-track>
                     @foreach ($team as $index => $member)
                         @php
-                            $seed = preg_replace('/\s+/', '', $member['name']);
-                            $avatar = 'https://api.dicebear.com/7.x/avataaars/svg?seed='.rawurlencode($seed);
+                            $avatar = ! empty($member['photo_url'] ?? null)
+                                ? $member['photo_url']
+                                : 'https://api.dicebear.com/7.x/avataaars/svg?seed='.rawurlencode($member['name']);
                         @endphp
                         <div
                             class="team-card flex-shrink-0 w-full sm:w-[calc(50%-0.75rem)] lg:w-[calc(25%-1.125rem)]"

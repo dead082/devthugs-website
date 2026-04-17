@@ -5,7 +5,7 @@
         <div class="flex flex-col items-center space-y-8">
             <div>
                 <img
-                    src="{{ asset('DevThugs_Logo.png') }}"
+                    src="{{ asset('images/partners_logo/DevThugs_Logo.png') }}"
                     alt="Devthugz"
                     class="h-20 w-auto opacity-80 hover:opacity-100 transition-opacity"
                 >
