@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactMessage;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\View\View;
 
 class ContactController extends Controller
@@ -22,7 +24,10 @@ class ContactController extends Controller
             'message' => ['required', 'string', 'max:5000'],
         ]);
 
-        // Hook for mail, logging, or tickets — placeholder for future integration
+        // Send email to DevThugs official email
+        Mail::to('devthugscompanyofficial@gmail.com')->send(new ContactMessage($validated));
+
+        // Log the submission
         logger()->info('Contact form submission', $validated);
 
         return redirect()
