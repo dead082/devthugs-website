@@ -43,8 +43,8 @@
                     <div>
                         <h4 class="font-orbitron text-lg font-bold text-white mb-2">Address</h4>
                         <p class="font-inter text-white/60 leading-relaxed">
-                            123 Innovation Drive, Tech District<br>
-                            Surigao City, 8400<br>
+                            Purok Maligaya 1, Tanabog Rosario<br>
+                            Tanday City, Surigao del Sur 8300<br>
                             Philippines
                         </p>
                     </div>
@@ -73,8 +73,7 @@
                     <div>
                         <h4 class="font-orbitron text-lg font-bold text-white mb-2">Phone</h4>
                         <p class="font-inter text-white/60 leading-relaxed">
-                            +63 (912) 345-6789<br>
-                            +63 (998) 765-4321
+                            +63 (966) 184-1984<br>                           
                         </p>
                     </div>
                 </div>
@@ -88,8 +87,9 @@
                     <div>
                         <h4 class="font-orbitron text-lg font-bold text-white mb-2">Business Hours</h4>
                         <p class="font-inter text-white/60 leading-relaxed">
-                            Monday - Friday: 9:00 AM - 6:00 PM (PHT)<br>
-                            Weekend: Closed
+                            Monday - Friday: 9:00 AM - 11:59 PM (PHT)<br>
+                            Saturday: 24hrs open<br>
+                            Sunday: Closed
                         </p>
                     </div>
                 </div>
