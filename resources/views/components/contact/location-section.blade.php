@@ -59,8 +59,7 @@
                     <div>
                         <h4 class="font-orbitron text-lg font-bold text-white mb-2">Email</h4>
                         <p class="font-inter text-white/60 leading-relaxed">
-                            hello@devthugs.com<br>
-                            support@devthugs.com
+                            devthugscompanyofficial@gmail.com<br>
                         </p>
                     </div>
                 </div>
