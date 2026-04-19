@@ -12,11 +12,13 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div class="relative w-full aspect-video lg:aspect-square rounded-3xl overflow-hidden border border-white/10 shadow-[0_0_40px_rgba(0,240,255,0.1)] group">
-                <img
-                    src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1200&q=80"
-                    alt="Satellite view of headquarters location"
-                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                >
+                <a href="https://www.google.com/maps/place/3654+57W,+City+of+Tandag,+Surigao+del+Sur" target="_blank" rel="noreferrer noopener" class="block w-full h-full">
+                    <img
+                        src="{{ asset('images/map.png') }}"
+                        alt="Headquarters Location"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    >
+                </a>
                 <div class="absolute inset-0 bg-gradient-to-t from-dark-base via-dark-base/40 to-transparent opacity-80"></div>
                 <div class="absolute bottom-8 left-8 right-8">
                     <div class="p-6 rounded-2xl bg-dark-base/80 backdrop-blur-md border border-white/10">

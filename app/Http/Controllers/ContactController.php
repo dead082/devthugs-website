@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactFormSubmission;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -22,8 +24,21 @@ class ContactController extends Controller
             'message' => ['required', 'string', 'max:5000'],
         ]);
 
-        // Hook for mail, logging, or tickets — placeholder for future integration
-        logger()->info('Contact form submission', $validated);
+        try {
+            Mail::to('devthugscompanyofficial@gmail.com')->send(
+                new ContactFormSubmission($validated)
+            );
+        } catch (\Throwable $exception) {
+            logger()->error('Contact form email failed', [
+                'error' => $exception->getMessage(),
+                'data' => $validated,
+            ]);
+
+            return redirect()
+                ->route('contact')
+                ->withInput()
+                ->with('contact_error', 'Unable to send your message right now. Please try again later.');
+        }
 
         return redirect()
             ->route('contact')
