@@ -14,7 +14,7 @@
             <div class="relative w-full aspect-video lg:aspect-square rounded-3xl overflow-hidden border border-white/10 shadow-[0_0_40px_rgba(0,240,255,0.1)] group">
                 <a href="https://www.google.com/maps/place/3654+57W,+City+of+Tandag,+Surigao+del+Sur" target="_blank" rel="noreferrer noopener" class="block w-full h-full">
                     <img
-                        src="{{ asset('images/map.png') }}"
+                        src="{{ asset('images/location/map.png') }}"
                         alt="Headquarters Location"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                     >
