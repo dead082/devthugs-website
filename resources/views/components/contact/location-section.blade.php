@@ -13,8 +13,8 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div class="relative w-full aspect-video lg:aspect-square rounded-3xl overflow-hidden border border-white/10 shadow-[0_0_40px_rgba(0,240,255,0.1)] group">
                 <img
-                    src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80"
-                    alt="Office Location"
+                    src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1200&q=80"
+                    alt="Satellite view of headquarters location"
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 >
                 <div class="absolute inset-0 bg-gradient-to-t from-dark-base via-dark-base/40 to-transparent opacity-80"></div>
@@ -27,7 +27,7 @@
                             </svg>
                             <h3 class="font-orbitron text-xl font-bold text-white">Headquarters</h3>
                         </div>
-                        <p class="font-inter text-white/70 pl-10">Surigao City, Philippines</p>
+                        <p class="font-inter text-white/70 pl-10">Tandag City, Surigao del Sur, Philippines</p>
                     </div>
                 </div>
             </div>
