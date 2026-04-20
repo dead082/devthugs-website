@@ -27,7 +27,7 @@
 
         <div style="margin-top: 24px; padding: 18px; background: #0f172a; border-radius: 16px; border: 1px solid rgba(45,212,191,0.15);">
             <h2 style="margin: 0 0 12px; font-size: 18px; color: #e2e8f0;">Message</h2>
-            <div style="color: #cbd5e1; white-space: pre-line; line-height: 1.8;">{!! nl2br(e($messageBody)) !!}</div>
+            <div style="color: #cbd5e1; white-space: pre-line; line-height: 1.8;">{!! nl2br(e($message)) !!}</div>
         </div>
 
         <p style="margin: 30px 0 0; color: #94a3b8; font-size: 13px;">This message was sent from the DevThugz contact page.</p>
