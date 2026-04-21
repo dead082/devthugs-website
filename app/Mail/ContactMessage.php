@@ -25,7 +25,7 @@ class ContactMessage extends Mailable
      */
     public function build(): static
     {
-        return $this->subject('New Contact Form Submission - DevThugs')
+        return $this->subject('Client Message')
             ->view('emails.contact')
             ->with($this->data);
     }
