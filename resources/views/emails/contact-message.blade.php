@@ -7,7 +7,7 @@
 </head>
 <body style="font-family: Arial, sans-serif; background: #0b0f17; color: #f8fafc; margin: 0; padding: 24px;">
     <div style="max-width: 680px; margin: 0 auto; background: #111827; border: 1px solid #2dd4bf; border-radius: 20px; padding: 28px;">
-        <h1 style="margin: 0 0 18px; font-size: 28px; color: #2dd4bf;">New Contact Form Submission</h1>
+        <h1 style="margin: 0 0 18px; font-size: 28px; color: #2dd4bf;">Client Message</h1>
         <p style="margin: 0 0 22px; color: #cbd5e1;">A visitor submitted the contact form on the DevThugz website.</p>
 
         <table cellpadding="0" cellspacing="0" style="width: 100%; color: #e2e8f0;">
