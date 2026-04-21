@@ -22,7 +22,7 @@
                     <h1 style="margin:0; font-size: 24px;">Client Message</h1>
                     <p style="margin: 10px 0 0; opacity: 0.9;">From DevThugs Website</p>
                 </div>
-                <img src="{{ env('APP_URL') }}/images/partners_logo/DevThugs_Logo.png" alt="DevThugs Logo" style="height: 50px; width: auto;">
+                <img src="{{ env('APP_URL') }}/images/partners_logo/DevThugs_Logo.png" alt="DevThugs Logo" style="height: 60px; width: auto; margin-left: auto;">
             </div>
         </div>
         <div class="content">
