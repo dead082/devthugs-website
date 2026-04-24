@@ -65,9 +65,4 @@ The goal of this website is to:
 - 🏆 Build credibility for clients, partners, and stakeholders
 - 💼 Provide a strong digital portfolio for startup and innovation initiatives
 
-## ⚙️ Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/devthugs-website.git
+Co-authored-by: EP4CXS <epacxzs@gmail.com> 
