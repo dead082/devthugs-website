@@ -1,8 +1,6 @@
 <?php
 
 use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
@@ -11,9 +9,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('chat_messages', function (Blueprint $table) {
-            $table->enum('source_type', ['greeting', 'faq', 'company', 'ai', 'fallback'])->nullable()->change();
-        });
+        DB::statement("ALTER TYPE chat_messages_source_type_enum ADD VALUE IF NOT EXISTS 'greeting' BEFORE 'faq';");
     }
 
     /**
@@ -21,8 +17,15 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('chat_messages', function (Blueprint $table) {
-            $table->enum('source_type', ['faq', 'company', 'ai', 'fallback'])->nullable()->change();
-        });
+        // Update any 'greeting' values to NULL (or handle as needed)
+        DB::statement("UPDATE chat_messages SET source_type = NULL WHERE source_type = 'greeting';");
+
+        // Recreate the enum without 'greeting' (PostgreSQL doesn't allow direct removal)
+        DB::statement("
+            ALTER TABLE chat_messages ALTER COLUMN source_type TYPE VARCHAR(255);
+            DROP TYPE IF EXISTS chat_messages_source_type_enum;
+            CREATE TYPE chat_messages_source_type_enum AS ENUM ('faq', 'company', 'ai', 'fallback');
+            ALTER TABLE chat_messages ALTER COLUMN source_type TYPE chat_messages_source_type_enum USING source_type::text::chat_messages_source_type_enum;
+        ");
     }
 };
