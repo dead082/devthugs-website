@@ -64,4 +64,4 @@ The goal of this website is to:
 - 🌍 Establish the official online identity of Devthugs
 - 📢 Present the team’s projects and services professionally
 - 🏆 Build credibility for clients, partners, and stakeholders
-- 💼 Provide a strong digital portfolio for startup and innovation initiatives
+- 💼 Provide a strong digital portfolio for startup and innovation initiatives and Univeristy
