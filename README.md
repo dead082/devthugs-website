@@ -17,7 +17,7 @@ This website was designed to showcase Devthugs as a technology-driven brand that
 - 🤝 Partners and collaboration section
 - 📱 Responsive design for desktop and mobile
 - 🎬 Smooth animations and polished UI/UX
-- Intergrating Ollama for ChatBot
+- Intergrating Ollama for ChatBots
 
 ## 💡 Featured Projects
 
