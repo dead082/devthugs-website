@@ -10,15 +10,14 @@ This website was designed to showcase Devthugs as a technology-driven brand that
 
 ## ✨ Features
 
-- 🌐 Modern futuristic landing page
 - 👥 About Us section
-- 📖 Startup journey and company story
 - 🚀 Featured Projects showcase
 - 🎯 Our Works interactive portfolio section
 - 🛠️ Services / What We Offer section
 - 🤝 Partners and collaboration section
 - 📱 Responsive design for desktop and mobile
 - 🎬 Smooth animations and polished UI/UX
+- Intergrating Ollama for ChatBot
 
 ## 💡 Featured Projects
 
@@ -37,7 +36,7 @@ The website showcases the following projects:
 - 🚀 Start Up
 - 📩 Get in Touch
 
-Additional content sections include:
+Additional content sections includes:
 
 - 👨‍💻 We Are Devthugs
 - 🛤️ How It Started
@@ -45,7 +44,6 @@ Additional content sections include:
 - 🚀 Featured Projects
 - 🧩 Our Works
 - 🤝 Our Partners
-- 📸 Partnership in Action
 - 🛠️ What We Offer
 
 ## 🧰 Tech Stack
@@ -54,7 +52,6 @@ This project may use the following technologies depending on deployment and impl
 
 - 💻 **Frontend:** HTML, CSS, JavaScript
 - ⚛️ **Framework / Library:** React / Next.js / Tailwind CSS
-- ☁️ **Hosting:** Vercel
 - 🎨 **Design Style:** Futuristic dark UI with neon-inspired highlights
 
 ## 🎯 Project Goal
