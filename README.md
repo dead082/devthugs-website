@@ -35,7 +35,7 @@ The website showcases the following projects:
 - 🚀 Start Up
 - 📩 Get in Touch
 
-Additional content sections include:
+Additional content sections includes:
 
 - 👨‍💻 We Are Devthugs
 - 🛤️ How It Started
