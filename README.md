@@ -64,5 +64,3 @@ The goal of this website is to:
 - 📢 Present the team’s projects and services professionally
 - 🏆 Build credibility for clients, partners, and stakeholders
 - 💼 Provide a strong digital portfolio for startup and innovation initiatives
-
-Co-authored-by: EP4CX$ <epacxzs@gmail.com>
