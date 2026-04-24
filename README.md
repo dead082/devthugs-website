@@ -43,7 +43,6 @@ Additional content sections includes:
 - 🚀 Featured Projects
 - 🧩 Our Works
 - 🤝 Our Partners
-- 📸 Partnership in Action
 - 🛠️ What We Offer
 
 ## 🧰 Tech Stack
