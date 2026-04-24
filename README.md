@@ -11,7 +11,6 @@ This website was designed to showcase Devthugs as a technology-driven brand that
 ## ✨ Features
 
 - 👥 About Us section
-- 📖 Startup journey and company story
 - 🚀 Featured Projects showcase
 - 🎯 Our Works interactive portfolio section
 - 🛠️ Services / What We Offer section
