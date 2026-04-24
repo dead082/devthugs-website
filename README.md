@@ -1,6 +1,6 @@
 # 🚀 Devthugs Website
 
-Official company and portfolio website for **Devthugs** — a digital innovation team focused on building modern, scalable, and impactful technology solutions.
+Official company and Portfolio website for **Devthugs** — a digital innovation team focused on building modern, scalable, and impactful technology solutions.
 
 ## 🌌 Overview
 
@@ -61,4 +61,4 @@ The goal of this website is to:
 - 🌍 Establish the official online identity of Devthugs
 - 📢 Present the team’s projects and services professionally
 - 🏆 Build credibility for clients, partners, and stakeholders
-- 💼 Provide a strong digital portfolio for startup and innovation initiatives and University
+- 💼 Provide a strong digital portfolio for startup and innovation initiatives and Univeristy
