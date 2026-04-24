@@ -52,7 +52,6 @@ This project may use the following technologies depending on deployment and impl
 
 - 💻 **Frontend:** HTML, CSS, JavaScript
 - ⚛️ **Framework / Library:** React / Next.js / Tailwind CSS
-- ☁️ **Hosting:** Vercel
 - 🎨 **Design Style:** Futuristic dark UI with neon-inspired highlights
 
 ## 🎯 Project Goal
