@@ -10,7 +10,17 @@ return new class extends Migration
      */
     public function up(): void
     {
-        DB::statement("ALTER TABLE chat_messages MODIFY COLUMN source_type ENUM('greeting', 'faq', 'company', 'ai', 'fallback') NULL;");
+        // Alter column to text temporarily
+        DB::statement('ALTER TABLE chat_messages ALTER COLUMN source_type TYPE VARCHAR(255);');
+
+        // Drop the old enum type
+        DB::statement('DROP TYPE IF EXISTS chat_messages_source_type_enum;');
+
+        // Create new enum type with 'greeting' added before 'faq'
+        DB::statement("CREATE TYPE chat_messages_source_type_enum AS ENUM ('greeting', 'faq', 'company', 'ai', 'fallback');");
+
+        // Alter column back to the new enum type
+        DB::statement('ALTER TABLE chat_messages ALTER COLUMN source_type TYPE chat_messages_source_type_enum USING source_type::text::chat_messages_source_type_enum;');
     }
 
     /**
