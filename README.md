@@ -4,7 +4,7 @@ Official company and portfolio website for **Devthugs** — a digital innovation
 
 ## 🌌 Overview
 
-The Devthugs website serves as the main online presence of the team. It highlights the company’s identity, featured projects, services, partners, and startup journey through a modern and futuristic interface.
+The Devthugs website serves as the main online presence of the team. It highlights the company’s identity, featured projects, services, partners, and startup journey through a modern and futuristic interfaces.
 
 This website was designed to showcase Devthugs as a technology-driven brand that transforms ideas into digital realities through creativity, innovation, and execution.
 
