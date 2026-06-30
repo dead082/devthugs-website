@@ -19,7 +19,7 @@
                 class="relative block w-full aspect-video lg:aspect-square rounded-3xl overflow-hidden border border-white/10 shadow-[0_0_40px_rgba(0,240,255,0.1)] group cursor-pointer hover:border-neon-cyan/40 transition-colors duration-300"
             >
                 <img
-                    src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80"
+                    src="{{ asset('images/img/location.png') }}"
                     alt="Devthugs headquarters map — tap to open in Google Maps"
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 >
